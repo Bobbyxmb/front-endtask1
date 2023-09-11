@@ -20,12 +20,13 @@ let currentDate = new Date();
 
 
 function time (){
-  const currentUTC = new Date().toUTCString();
+  const currentUTC = new Date().getTime();
   let timeInUTC = document.getElementById("currentUTCTime");
   timeInUTC.style = "font-size:20px;";
 
-  timeInUTC.innerText = currentUTC;
+  timeInUTC.innerText = "Time in Milliseconds : " +  currentUTC + "Milliseconds";
 
 
 }
   time();
+  setInterval(time,1000);

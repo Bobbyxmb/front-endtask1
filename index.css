@@ -1,8 +1,9 @@
 .slackDisplayImage {
-height: 8%;
-width: 8%;
-border-radius: 60%;
-margin-left: 50px;
+height: 120px;
+width: 120px;
+border-radius: 60px;
+border: 2px solid blue;
+
 }
 .slackUserName{
   background-color:palegreen;
