@@ -1,0 +1,19 @@
+.slackDisplayImage {
+height: 8%;
+width: 8%;
+border-radius: 60%;
+margin-left: 50px;
+}
+.slackUserName{
+  background-color:palegreen;
+  color:blue;
+  width: fit-content;
+  padding: 10px 7px 10px 7px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.myTrack {
+  font-size: 20px;
+}
